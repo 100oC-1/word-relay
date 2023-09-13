@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(115, 194, 194);
+}
+
+.modal{
+  
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+.wordInput{
+ padding: 8px;
+ font-size: 16px;
+ margin: 10px;
+}
+
+
+.startClick{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:500px;
+  height: 500px;
+  background-color: rgb(241, 230, 167);
+  text-align: center;
+  font-size: 24px;
+  
+}
+.fun{
+  padding-top: 100px;
+  font-size: 38px;
+}
+#click{
+  font-size: 100px;
+  border:solid;
+  width:250px;
+  border-color: rgb(2, 23, 41);
+  
+}
+.startSelect{
+  background-color: rgb(153, 116, 241);
+  
+  z-index: 1;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.ask{
+  
+  padding-bottom: 3rem;
+  font-size: 24px;
+}
+
+.selectNumber{
+  font-size: 24px;
+  width: 200px;
+  
+}
+
+.suggestWrapper{
+  
+  flex-direction: row;
+}
+.suggest {
+  display:inline;
+  padding:6px;
+  text-align: center;
+}
+.suggested-word{
+  display:inline;
+  padding:6px;
+  text-align: center;
+}
